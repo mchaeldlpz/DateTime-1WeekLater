@@ -1,0 +1,4 @@
+import datetime# 
+current_time = datetime.datetime.now()
+one_week_later = current_time + datetime.timedelta(days=7)
+print("The date and time in one week will be:", one_week_later)
